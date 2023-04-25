@@ -22,7 +22,7 @@ int main()
 	int arr[n];
 	for (int i = 0; i < n; i++)
 	{
-		arr[i] = i;
+		arr[i] = i + 1;
 	}
 	shuffle(arr, n);
 	for (int i = 0; i < n; i++)
